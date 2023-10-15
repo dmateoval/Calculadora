@@ -1,0 +1,19 @@
+.boton-clear {
+	height: 80px;
+	font-size: 1.6em; /*Unidad de medida relativa osea 1.6 veces del tamaño de tu contenedor*/
+	display: flex;
+	flex: 1; /*Para que el botón llene todo el espacio*/
+	background-color: #ac0246;
+	margin-top: 8px;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: white;
+	border: 2px solid white;
+	cursor: pointer; /*Activa la Manito*/
+	border-radius: 45px;
+}
+
+.boton-clear:hover{
+	background-color: #ebb000;
+}

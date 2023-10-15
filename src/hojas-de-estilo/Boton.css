@@ -1,0 +1,31 @@
+.boton-contenedor{
+  height: 83px;
+	display: flex;
+	/*Longitud flexible que determina cuánto se puede encoger/expandir en base a otros elementos que tenga cerca*/
+	/*1 1 significa que van a tener el mismo ancho/alto los componentes circundantes*/
+	flex: 1 1; 
+	justify-content: center;
+	align-items: center;
+	font-weight: bold; /*Peso de la letra Negrita*/
+	font-size: 38px;
+	background-color: #1b1b32;
+	color: white;
+	border-radius: 25px;
+	border: 2px solid white;
+	margin: 4px;
+	cursor: pointer;
+	user-select: none; /*Permite que el texto no se pueda seleccionar con el mouse */
+}
+
+.boton-contenedor:hover{	/*El mouse está sobre el elemento pero sin hacer clic*/
+	background-color: #5a01a7;
+}
+
+.operador{
+	background-color: #00471b;
+}
+
+.operador:hover{
+	background-color: #ff6600;
+}
+
